@@ -1,0 +1,95 @@
+.learn-more {
+  padding: 0 15px 0 0;
+  background-color: transparent;
+  border: none;
+  color: var(--white);
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  text-decoration: none;
+  direction: rtl !important;
+}
+.learn-more.active {
+  background-color: var(--blue);
+  transition: all 0.2s ease-in-out;
+  border-radius: 50px;
+}
+.learn-more .button-text-white {
+  padding-left: 15px;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  transition: all 0.3s ease-in-out;
+}
+.learn-more .button-text-white.active {
+  padding-left: 0px;
+  padding-right: 10px;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  transition: all 0.3s ease-in-out;
+  color: var(--white);
+}
+.learn-more .button-text-blue {
+  padding-left: 15px;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  transition: all 0.3s ease-in-out;
+  color: var(--blue);
+}
+.learn-more .button-text-blue.active {
+  padding-left: 0px;
+  padding-right: 10px;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  transition: all 0.3s ease-in-out;
+  color: var(--white);
+}
+.learn-more .circle {
+  border: 2px solid var(--blue);
+  border-radius: 50%;
+  padding: 15px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+.learn-more .circle.active {
+  justify-content: flex-end;
+}
+.learn-more .circle .icon-arrow {
+  display: flex;
+  color: var(--blue);
+  transition: all 0.3s ease-in-out;
+}
+.learn-more .circle .icon-arrow.active {
+  display: flex;
+  color: var(--white);
+  transition: all 0.3s ease-in-out;
+}
+
+/* ========= mobile ======== */
+@media screen and (max-width: 480px) {
+  .learn-more {
+    height: 50px;
+  }
+  .learn-more .circle {
+    width: 50px;
+    height: 50px;
+  }
+  .learn-more .button-text-white {
+    font-size: 15px;
+  }
+  .learn-more .button-text-blue {
+    font-size: 15px;
+  }
+}

@@ -1,13 +1,42 @@
+:root {
+  --first-color: #39267e;
+  --white: #fff;
+  --light-white: #f9f9f9;
+  --off-white: #9da2a4;
+  --black: rgb(3, 3, 3);
+  --purple: #6f277d;
+  --hashtag: #39267f1a;
+  --red: #7d2726;
+  --delete: #f6002c;
+  --edit-color: #ff9f00;
+  --blue: #24b4ba;
+  --text-one: #1c315b;
+  --background-color: #95a2a8;
+  --text-color: #afb8bd;
+  --footer-color: #1f396c;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: var(--light-white);
+  /* background: cadetblue; */
+  font-family: "Tajawal", sans-serif;
+  direction: rtl;
+  overflow-x: hidden;
+  /* overflow: hidden; Hide scrollbars */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  text-decoration: none !important;
+}
+ul {
+  list-style: none;
+}
+.swiper-wrapper {
+  overflow-x: visible !important;
 }
