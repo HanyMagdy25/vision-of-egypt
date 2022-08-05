@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/vision-of-egypt/static/css/main.3db56852.css",
+    "main.js": "/vision-of-egypt/static/js/main.bd734429.js",
+    "static/media/vision-section-bg.png": "/vision-of-egypt/static/media/vision-section-bg.77b17c168910a51659de.png",
+    "static/media/logo.png": "/vision-of-egypt/static/media/logo.6527cd944a6dd3045000.png",
+    "static/media/proLogo.svg": "/vision-of-egypt/static/media/proLogo.4776c9739b833c2cbd1906a2d3b15165.svg",
+    "index.html": "/vision-of-egypt/index.html",
+    "main.3db56852.css.map": "/vision-of-egypt/static/css/main.3db56852.css.map",
+    "main.bd734429.js.map": "/vision-of-egypt/static/js/main.bd734429.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3db56852.css",
+    "static/js/main.bd734429.js"
+  ]
+}
